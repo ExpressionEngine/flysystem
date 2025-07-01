@@ -23,7 +23,7 @@
     "require": {
         "php": "^7.2.5 || ^8.0",
         "ext-fileinfo": "*",
-        "league/mime-type-detection": "^1.3"
+        "expressionengine/mime-type-detection": "dev-main"
     },
     "require-dev": {
         "phpspec/prophecy": "^1.11.1",
@@ -39,6 +39,12 @@
             "League\\Flysystem\\Stub\\": "stub/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ExpressionEngine/mime-type-detection"
+        }
+    ],
     "suggest": {
         "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
         "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
