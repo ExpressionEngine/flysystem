@@ -23,7 +23,7 @@
     "require": {
         "php": "^7.2.5 || ^8.0",
         "ext-fileinfo": "*",
-        "expressionengine/mime-type-detection": "dev-main"
+        "expressionengine/mime-type-detection": "1.x"
     },
     "require-dev": {
         "phpspec/prophecy": "^1.11.1",
